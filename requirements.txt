@@ -1,0 +1,4 @@
+python 3.6.8
+pytest 5.0.1
+plotly 4.2.1
+pandas 0.24.2

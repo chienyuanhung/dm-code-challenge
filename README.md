@@ -10,6 +10,8 @@
 parameters). To execute dosing.py, enter 'python dosing.py Pm1 Pm2 Pm3 (Pm4)'. If the Pm4 is not provided, the result csv file will be saved at the current directory. If no parameters are provided (python dosing.py), dosing.py will use the default setting: viscode = 'w02', svdose = 'Y', ECSDSTXT = 280, directory = ""
 
 
-* If a non-exising directory is provided, the program will show "not a vaild directory" on the terminal after generating the pie chart
+* If a wrong or non-exising directory is provided, the program will show "not a vaild directory" on the terminal after generating the pie chart
 
 * test_dosing.py use pytest to test three functions used in dosing.py. To execute the program enter "pytest test_dosing.py" on command line. 
+
+
